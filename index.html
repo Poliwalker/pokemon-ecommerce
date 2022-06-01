@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>PedimonYa</title>
+		<link rel="stylesheet" href="style.css" />
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css
+    "
+		/>
+	</head>
+    <body>
+        <header>
+            <nav class="menu">
+                <div class="menu-logo">
+                    <a href="#"><img src="./Assest/pedimon-logo.png" alt=""></a>
+                </div>
+    
+                <ul class="menu-link">
+                    <li class="item"><a href="#about">About</a></li>
+                    <li class="item"><a href="#products">products</a></li>
+                    <li class="item"><a href="#buy">compras</a></li>
+                    <li class="item">
+                        <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+                    </li>
+                </ul>
+    
+                <div class="btn-container">
+                    <a href="#"><i class="fa-solid fa-bars"></i></a>
+                </div>
+            </nav>
+        </header>
+    
+        <main>
+    
+            <section class="about-section" id="about">
+                <div class="about-content">
+                    <img src="./Assest/pedimon-text.png" alt="logo texto" class="title-img" />
+                    <p>
+                        Busca tu Pokemon favorito y disfruta de los beneficios de tener un
+                        bicho de estos en tu casa! Hay como cinco millones para coleccionar!
+                    </p>
+                    <a href="#products" class="btn-hero">Los quiero atrapar</a>
+                </div>
+                <div class="about-img">
+                    <img src="./Assest/pikachu-hero.png" alt="pikachu" />
+                </div>
+            </section>
+    
+            <section class="description-section" id="description">
+                <h2>No te quedes sin tu pedido</h2>
+                <p>
+                    Dale perry, no te podes quedar sin tu Pedimon! Mira lo facil que es...
+                </p>
+                <!-- Contenedor para las 3 cards -->
+                <div class="card-container">
+                    <!-- Card 1 -->
+                    <div class="card">
+                        <img src="./Assest/info-icon-1.png" alt="info 1" class="info-card" />
+                        <p>
+                            Elegis el Pedi que vos queres de la lista de aca abajo (si hay)
+                        </p>
+                    </div>
+                    <!-- Card 2 -->
+                    <div class="card">
+                        <img src="./Assest/info-icon-2.png" alt="info 1" class="info-card" />
+                        <p>
+                            Lo agregas al carrito de la camada tiene que haber alguno en algun
+                            lado
+                        </p>
+                    </div>
+                    <!-- Card 3 -->
+                    <div class="card">
+                        <img src="./Assest/info-icon-3.png" alt="info 1" class="info-card" />
+                        <p>
+                            Le das al boton de comprar y listo! Ya tenes tus Pedis en tu casa
+                            muy pronto
+                        </p>
+                    </div>
+                </div>
+            </section>
+
+            <!--* Seccion 3 Products -->
+      <section class="products-section" id="products">
+        <h2>Aca va la lista de los Cokemone</h2>
+        <div class="products-container">
+          <!-- Los pokemone -->
+          <!-- Producto 1 -->
+          <div class="product">
+            <img
+              src="./Assest/balbasaur.png"
+              alt="balbasaur"
+              class="cokemon"
+            />
+            <p class="product-title upper">Bulbasaur</p>
+            <span class="product-price">$125</span>
+            <a href="#products" class="btn-products upper">Comprar</a>
+          </div>
+          <!-- Producto 2 -->
+          <div class="product">
+            <img
+              src="./Assest/gengar.png"
+              alt="balbasaur"
+              class="cokemon"
+            />
+            <p class="product-title upper">Gengar</p>
+            <span class="product-price">$125</span>
+            <a href="#products" class="btn-products upper">Comprar</a>
+          </div>
+          <!-- Producto 3 -->
+          <div class="product">
+            <img
+              src="./Assest/squirtle.png"
+              alt="balbasaur"
+              class="cokemon"
+            />
+            <p class="product-title upper">squirtle</p>
+            <span class="product-price">$125</span>
+            <a href="#products" class="btn-products upper disabled">Comprar</a>
+            <!-- Sin stock -->
+            <span class="upper sin-stock">Sin Stock. Volo</span>
+          </div>
+          <!-- Producto 4 -->
+          <div class="product">
+            <img
+              src="./Assest/takara.png"
+              alt="balbasaur"
+              class="cokemon"
+            />
+            <p class="product-title upper">Articune</p>
+            <span class="product-price">$125</span>
+            <a href="#products" class="btn-products upper">Comprar</a>
+          </div>
+          <!-- Producto 5 -->
+          <div class="product">
+            <img
+              src="./Assest/balbasaur.png"
+              alt="balbasaur"
+              class="cokemon"
+            />
+            <p class="product-title upper">Bulbasaur</p>
+            <span class="product-price">$125</span>
+            <a href="#products" class="btn-products upper">Comprar</a>
+          </div>
+          <!-- Producto 6 -->
+          <div class="product">
+            <img
+              src="./Assest/gengar.png"
+              alt="balbasaur"
+              class="cokemon"
+            />
+            <p class="product-title upper">Gengar</p>
+            <span class="product-price">$125</span>
+            <a href="#products" class="btn-products upper">Comprar</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="cart-section" id="carrito">
+        <h2>Ponele que aca va un carrito</h2>
+        <p>
+          Otra que podemos hacer es que se mande al carrito en el navbar y se
+          abra, pero bueno, despues con Js
+        </p>
+        <div class="cart-container">
+          <!-- item 1 -->
+          <div class="cart-item">
+            <img src="./Assest/pinguino.png" alt="" class="item-img" />
+            <p class="cart-title">Piplup</p>
+            <span class="cart-price">$987</span>
+          </div>
+          <!-- item 2 -->
+          <div class="cart-item">
+            <img src="./Assest/pinguino.png" alt="" class="item-img" />
+            <p class="cart-title">Piplup</p>
+            <span class="cart-price">$987</span>
+          </div>
+          <!-- item 3 -->
+          <div class="cart-item">
+            <img src="./Assest/pinguino.png" alt="" class="item-img" />
+            <p class="cart-title">Piplup</p>
+            <span class="cart-price">$987</span>
+          </div>
+          <!-- total -->
+          <div class="total-items">
+            <p class="total">Total: $NaN</p>
+            <a href="#" class="btn-products ">Finalizar Compra</a>
+          </div>
+        </div>
+      </section>
+        </main>
+
+        <footer>
+            <div class="title">
+              <img src="./Assest/pedimon-text.png" alt="logo" />
+            </div>
+            <div class="info-container">
+              <div class="contacto">
+                <h2>Contacto</h2>
+                <a href="#">04 04 04</a>
+                <p>Calle Falsa 123</p>
+                <p>Buenos aires</p>
+              </div>
+              <div class="legales">
+                <>LegalPiplup
+                  Aguante pokemon vieja!!!!
+                </p>
+              </div>
+            </div>
+            <p>Hecho con ❤ en Nucba</p>
+          </footer>
+    </body>
+</html>
